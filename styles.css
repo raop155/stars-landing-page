@@ -85,6 +85,7 @@ h1 {
   color: #fff;
   border: 1px #fff solid;
   margin-top: 1.5rem;
+  opacity: 0.75;
 }
 
 .btn:hover {
@@ -99,14 +100,18 @@ h1 {
 }
 
 #about p {
-  font-size: 1.5rem;
-  max-width: 768px;
+  font-size: 1.2rem;
+  max-width: 600px;
   margin: auto;
 }
 
 #about h2 {
-  margin: 30ox 0;
+  margin: 30px 0;
   color: var(--primary-color);
 }
 
-/* */
+/* Social */
+
+.social a {
+  margin: 0 5px;
+}
